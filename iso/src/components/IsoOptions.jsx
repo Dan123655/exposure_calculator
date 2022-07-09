@@ -18,7 +18,7 @@ if(props.weather){
         <div>
             <Fstops weather={props.weather} iso={iso}/>
         </div></>)
-    }else{return <div className ='container2'><div className="chooseWeather">Choose weather</div></div>}
+    }else{return <div className ='container2'><div className="chooseWeather">Choose weather: sunny, cloudy or shade/indoor</div></div>}
 }
   
 
