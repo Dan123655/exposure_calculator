@@ -1,26 +1,39 @@
+.main{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-color: transparent;
+    border-style:solid;
+    border-radius: 20px;
+    padding:30px;
+    min-width:fit-content;
+    max-width: 800px;
+    height: 700px;
+    background-color: rgb(233, 233, 233, 0.3);
+    box-shadow:3px 3px 12px 0px rgb(109, 109, 109)
+}
 .container {
     
     display: flex;
 	flex-wrap: nowrap;
 	justify-content: center;
 	text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .weatherPic{
     border-radius: 30%;
-    margin: 30px;
+    margin: 20px;
     height: 75px;
     width: 75px;
 }
 .weatherPic:hover{
-background-color: rgb(231, 230, 230);
+background-color: rgb(238, 237, 237);
 }
 .weatherPic:active{
-    height: 80px;
-    width: 80px;
-    border-width: 3px;
-    border-style:inset;
-    border-color: rgb(172, 173, 173);
+    height: 75px;
+    width: 75px;
+    background-color: #d0fcb7;
 }
 
 .container2 {
@@ -30,52 +43,94 @@ background-color: rgb(231, 230, 230);
 	justify-content: center;
 	text-align: center;
     margin-top: 25px;
-    font-size: small;
 }
+.container6 {
+
+    font-family: 'Helvetica', 'Sans serif';
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	text-align: center;
+    margin-top: 20%;
+    height: 30px;
+    opacity: 0.55;
+    font-size: 80%;
+}
+
 .iso {
     font-family: 'Helvetica', 'Sans serif';
-padding-top: 15px;
-    width: 65px;
-    height: 50px;
-    margin: 0 5px;
-    opacity: 0.55;
-    border-radius: 15%;
+    
+                    display: inline-block;
+                    width: 40px;
+                    outline: 0;
+                    cursor: pointer;
+                    background-color: rgb(241, 241, 241, 0.5);
+                    border-radius: 0px;
+                    padding: 8px 16px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #2d3748;
+                    border: 0px solid #cbd5e0;
+                    line-height: 26px;
+                    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+  
   }
 .iso:hover{
-    background-color:rgb(236, 236, 236);
+    background-color:rgb(245, 243, 243);
 
   }
   .iso:active{
-    border-width: 3px;
-    border-style:inset;
-    border-color: rgb(172, 173, 173);
+    background-color: rgb(187, 253, 133);
   }
 .container3 {
-
-display: flex;
-flex-wrap: nowrap;
+    box-shadow: grey 0px 20px 10px -20px;
+display: block;
+white-space: nowrap;
 justify-content: center;
 text-align: center;
+border-radius: 5px;
+border-color:rgb(107, 106, 106);
 margin-top: 30px;
-overflow-x: auto;
+margin-left: auto;
+margin-right: auto;
+width: 205px;
+height: 42px;
+overflow-x: scroll;
+scrollbar-width: none;
+margin:4px, 4px;
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 25%, rgba(255, 255, 255, 0.7) 75%, rgba(255, 255, 255, 0) 100%);
 
+}
+.container3::-webkit-scrollbar{
+    width: 0;
+    height: 0;
 }
 .fStop {
     font-family: 'Helvetica', 'Sans serif';
-    width: 50px;
-    height: 40px;
-    padding-top: 10px;
-    opacity: 0.55;
-    font-size: 150%;
-    border-radius: 15%;
+                    display: inline-block;
+                    width: 60px;
+                    outline: 0;
+                    border: 0;
+                    cursor: pointer;
+                    background-color: rgba(255, 255, 255, 0.1);
+                    border-radius: 0px;
+                    padding: 8px 16px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    color:transparent;
+                    text-decoration: #2d3748;
+                    color: #2d3748;
+                    border: 0px solid #cbd5e0;
+                    line-height: 26px;
+                    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+                
   }
 .fStop:hover{
-    background-color:rgb(236, 236, 236);
+    background-color:rgb(245, 243, 243);
 }
 .fStop:active{
-    border-width: 3px;
-    border-style:inset;
-    border-color: rgb(172, 173, 173);
+    background-color: rgb(187, 253, 133);
 }
 .container4 {
 
@@ -83,8 +138,9 @@ overflow-x: auto;
     flex-wrap: nowrap;
     justify-content: center;
     text-align: center;
-    margin-top: 30px;
     overflow-x: auto; 
+    padding-top: 10%;
+    
 
 }
 .container5 {
@@ -93,17 +149,20 @@ overflow-x: auto;
 	flex-wrap: wrap;
 	justify-content: center;
 	text-align: center;
-    
 
 }
 
   .setIso {
     font-family: 'Helvetica', 'Sans serif';
-  
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	text-align: center;
+    margin-top: 5%;
     height: 30px;
-    margin: 3px;
-    opacity: 0.55;
-    font-size: 120%;
+    font-size: 110%;
+    height: 30px;
+    opacity: 0.4;
   }
   .chooseWeather {
     font-family: 'Helvetica', 'Sans serif';
@@ -118,14 +177,15 @@ overflow-x: auto;
   font-weight: 300;
     height: 30px;
     margin: 3px;
-    opacity: 0.55;
     font-size: 120%;
 }
 #result2 {
-    font-size: 350%;
+    font-size: 400%;
+    font-weight: 700;
     font-family: 'Helvetica', 'Sans serif';
     opacity: 0.80;
-    margin-top: 20px;
+    margin-top: 0px;
+
 }
 .fStop:hover{
     opacity:0.8;
@@ -135,5 +195,13 @@ overflow-x: auto;
     opacity: 0.8;
 
 }
+body{
+    background: rgb(47,207,241);
+background: linear-gradient(0deg, rgba(255, 245, 156, 0.757) 0%, rgb(102, 199, 216) 100%);
+background-repeat: no-repeat;
+height: 100%;
+background-attachment: fixed;
+}
+
 
 
