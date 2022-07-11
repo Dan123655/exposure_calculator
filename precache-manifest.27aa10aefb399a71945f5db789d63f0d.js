@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "e2db2c9897f30877e67c",
-    "url": "/exposure_calculator/static/css/main.0e7d9e3e.chunk.css"
+    "revision": "005c3bf961665cb705f1",
+    "url": "/exposure_calculator/static/css/main.caacb523.chunk.css"
   },
   {
-    "revision": "e2db2c9897f30877e67c",
+    "revision": "005c3bf961665cb705f1",
     "url": "/exposure_calculator/static/js/main.9332ece0.chunk.js"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/exposure_calculator/static/media/dim.00a226c9.png"
   },
   {
-    "revision": "191b70b5303feae17ccfd1a115185269",
+    "revision": "d97042c229abb257d231e1846c46026b",
     "url": "/exposure_calculator/index.html"
   }
 ];
