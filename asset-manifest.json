@@ -1,16 +1,16 @@
 {
-  "main.css": "/exposure_calculator/static/css/main.3df6a0e9.chunk.css",
-  "main.js": "/exposure_calculator/static/js/main.afa206fd.chunk.js",
-  "main.js.map": "/exposure_calculator/static/js/main.afa206fd.chunk.js.map",
+  "main.css": "/exposure_calculator/static/css/main.29dbbff7.chunk.css",
+  "main.js": "/exposure_calculator/static/js/main.f9b3a5b8.chunk.js",
+  "main.js.map": "/exposure_calculator/static/js/main.f9b3a5b8.chunk.js.map",
   "runtime~main.js": "/exposure_calculator/static/js/runtime~main.135b7fa5.js",
   "runtime~main.js.map": "/exposure_calculator/static/js/runtime~main.135b7fa5.js.map",
   "static/js/2.265c2a91.chunk.js": "/exposure_calculator/static/js/2.265c2a91.chunk.js",
   "static/js/2.265c2a91.chunk.js.map": "/exposure_calculator/static/js/2.265c2a91.chunk.js.map",
   "index.html": "/exposure_calculator/index.html",
-  "precache-manifest.944b254a2105fe21b99282c5e9a301cc.js": "/exposure_calculator/precache-manifest.944b254a2105fe21b99282c5e9a301cc.js",
+  "precache-manifest.af6b8fd576a36c97441314e22c1062ea.js": "/exposure_calculator/precache-manifest.af6b8fd576a36c97441314e22c1062ea.js",
   "service-worker.js": "/exposure_calculator/service-worker.js",
-  "static/css/main.3df6a0e9.chunk.css.map": "/exposure_calculator/static/css/main.3df6a0e9.chunk.css.map",
-  "static/media/cloud.png": "/exposure_calculator/static/media/cloud.b2387df0.png",
-  "static/media/dim.png": "/exposure_calculator/static/media/dim.00a226c9.png",
-  "static/media/sun.png": "/exposure_calculator/static/media/sun.a3be534b.png"
+  "static/css/main.29dbbff7.chunk.css.map": "/exposure_calculator/static/css/main.29dbbff7.chunk.css.map",
+  "static/media/cloud.svg": "/exposure_calculator/static/media/cloud.a8020055.svg",
+  "static/media/sun.svg": "/exposure_calculator/static/media/sun.1d187423.svg",
+  "static/media/sunset.svg": "/exposure_calculator/static/media/sunset.db99ac48.svg"
 }
