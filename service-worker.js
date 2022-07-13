@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/exposure_calculator/precache-manifest.af6b8fd576a36c97441314e22c1062ea.js"
+  "/exposure_calculator/precache-manifest.0a598a86e830ac9ee0227d0b2fb695f8.js"
 );
 
 workbox.clientsClaim();
