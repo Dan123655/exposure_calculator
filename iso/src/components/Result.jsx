@@ -6,7 +6,7 @@ function Result(props) {
 var msg='Your settings: '
   if (props.weather==0){return msg + 'Sunny'}
     else if(props.weather==1){return msg + "Cloudy"}
-      else if(props.weather==2){return msg + "In the shade"}
+      else if(props.weather==2){return msg + "Sunset"}
         else{return "smt not right"}}
 var iso=()=>{
   if(props.iso==4){return ', ISO 50'}
@@ -24,7 +24,7 @@ if(props.shutter) return (<>
 </div>
   </>)
 else{
-  return <div className ='container4'><div className="setIso">Scroll & select lens aperture (F-stop)</div></div>
+  return <div className ='container4'><div className="selectAperture">scroll & select lens aperture (F-stop)</div></div>
 }}
 
 export default Result

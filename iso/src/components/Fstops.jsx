@@ -15,6 +15,6 @@ return(
       <Result shutter={shutter} iso={props.iso} weather={props.weather}/>
     </div>
 </>)
-}else{return <div className ='setIso'><div>Select your film ISO</div></div>}
+}else{return <div className ='setIso'><div>select film ISO</div></div>}
 }
 export default Fstops
